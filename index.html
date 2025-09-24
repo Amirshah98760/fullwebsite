@@ -1,12 +1,457 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="/Styles/style.css">
 </head>
+
 <body>
+  <header class="w-full h-[100px] flex items-center justify-center">
+    <div class="flex items-center justify-between w-10/12 ">
+      <div>
+        <h1 class="text-[#5BB5A2] font-bold text-[32px] ">banquee</h1>
+      </div>
+      <div class="links">
+        <ul class="flex gap-[20px] ">
+          <li><a href="#" class="text-2xl">Features</a></li>
+          <li><a href="#" class="flex text-2xl"> Compare <img src="./Assets/drop-down-line (1).png" class="w-[24px] h-[24px]"
+                alt=""></a></li>
+          <li><a href="#" class="text-2xl">Support</a> </li>
+          <li><a href="#" class="flex text-2xl">Blog <img src="./Assets/drop-down-line (1).png" class="w-[24px] h-[24px]"
+                alt="" ></a></li>
+        </ul>
+      </div>
+      <div class="flex gap-5">
+        <button class="text-[#5BB5A2] text-2xl font-bold ">Login</button>
+        <button class="text-2xl text-[#FFFFFF]  bg-[#5BB5A2] rounded-[5px] p-2 cursor-pointer ml-1">Open
+          Account</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- navbar end  -->
+
+
+  <main class="w-full h-[733px] flex items-center justify-center ">
+  <div class="container mx-auto flex items-center justify-between px-8  ">
     
-    <h1>Hello world!</h1>
+    <!-- Left Section -->
+    <div class="w-[600px] flex flex-col gap-4 ">
+      <!-- Heading -->
+      <h1 class="text-6xl  text-gray-800 mb-4 leading-15">
+        Banking <br> Starts Here
+      </h1>
+     <!-- paragraph -->
+      <p class="text-gray-600 mb-6 text-[24px]">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem dolorum temporibus delectus?
+      </p>
+      <!-- Features List in 2x2 grid -->
+      <ul class="grid grid-cols-2 gap-2 text-gray-700 font-medium">
+        <li class="flex gap-5 items-center "><img src="./Assets/ri_check-fill.png" alt="" class="bg-[#E8F2EE] rounded-full">instant Transfer</li>
+        <li class="flex gap-5 items-center "><img src="./Assets/ri_check-fill.png" alt="" class="bg-[#E8F2EE] rounded-full">Payments World wide</li>
+        <li class="flex gap-5 items-center "><img src="./Assets/ri_check-fill.png" alt="" class="bg-[#E8F2EE] rounded-full">Swing Accounts</li>
+        <li class="flex gap-5 items-center "><img src="./Assets/ri_check-fill.png" alt="" class="bg-[#E8F2EE] rounded-full">100% Mobile banking</li>
+      
+      </ul>
+
+      <div class="w-[358px] h-[50px] gap-[50px] mt-5 ">
+        <button class="bg-[#5BB5A2] p-2 h-[50px] rounded-[6px] text-[#FFFFFF] text-2xl ">Open Account</button>
+        <button class="text-[#5BB5A2] ml-[20px] text-2xl">Compare cards </button>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="w-1/2 flex justify-center">
+      <img src="./Assets/drop-down-line (2).png" alt="Hero Image" class="rounded-2xl shadow-lg w-[399px] h-[577px]">
+    </div>
+
+  </div>
+</main>
+
+  <!-- Hero section end -->
+
+
+  <!-- card Section start  -->
+   <main class="w-full min-h-screen bg-white flex items-center justify-center px-6">
+  <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+    
+    <!-- Left Section -->
+    <div class="w-full lg:w-1/2 ">
+      <!-- Heading -->
+      <h1 class="text-5xl font-bold text-gray-900 leading-tight mb-10 ">
+        One app.<br />One banking.
+      </h1>
+
+      <!-- Features Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6  p-[30px]">
+        
+        <!-- Card 1 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4 img-custom ">
+          <img src="./Assets/ri_flashlight-line.png" alt="" class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2 ">Instant <br> transactions</h3>
+          <p class=" text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4">
+            <img src="./Assets/ri_safe-2-fill.png" alt=""  class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2">Saving <br> accounts</h3>
+          <p class="text-gray-500 text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4">
+            <img src="./Assets/ri_smartphone-line.png" alt="" class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2">Mobile <br> banking</h3>
+          <p class="text-gray-500 text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4">
+            <img src="./Assets/ri_line-chart-line.png" alt="" class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2">Advanced <br> statistics</h3>
+          <p class="text-gray-500 text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4">
+            <img src="./Assets/ri_bank-card-2-line.png" alt="" class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2">Virtual <br> cards</h3>
+          <p class="text-gray-500 text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white shadow-md p-6 rounded-2xl border border-gray-100 p-[40px]">
+          <div class="w-12 h-12 bg-green-100 flex items-center justify-center rounded-full mb-4">
+            <img src="./Assets/ri_wifi-line.png" alt="" class="w-6">
+          </div>
+          <h3 class="font-semibold text-2xl text-gray-800 mb-2">Contactless <br> payments</h3>
+          <p class="text-gray-500 text-lg font-medium">Odio euismod lacinia at quis. Amet purus gravida quis blandit turpis.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="w-full lg:w-1/2 flex justify-center">
+      <img src="./Assets/app.jpg" 
+           alt="Banking App" 
+           class="w-[320px] h-auto rounded-3xl shadow-xl" />
+    </div>
+
+  </div>
+</main>
+
+  <!-- card Section end  -->
+
+
+<!-- Section 3 start  -->
+ <main class="w-full bg-white ">
+
+  <!-- Section ۳: Send & Receive -->
+  <section class="w-full bg-[#E8F2EE] py-20 h-[615px] overflow-hidden">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-8 gap-12">
+      
+      <!-- Left Content -->
+      <div class="w-full lg:w-1/2">
+        <h2 class="text-5xl font-medium  leading-snug mb-6">
+          Send & receive<br />money instantly
+        </h2>
+        <p class="text-gray-600 mb-6 text-lg ">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+        </p>
+        <ul class="space-y-3  text-lg">
+          <li class="flex items-center gap-2 ">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Malesuada Ipsum
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Vestibulum
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Parturient Lorem
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right Transactions -->
+      <div class="w-full lg:w-4/12 flex flex-col gap-4 h-[578px]  ">
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Apple</h4>
+              <p class="text-gray-500 text-sm">Macbook</p>
+            </div>
+          </div>
+          <p class=" font-semibold">-999€</p>
+        </div>
+
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Amazon</h4>
+              <p class="text-gray-500 text-sm">Electronics</p>
+            </div>
+          </div>
+          <p class="font-semibold">-49€</p>
+        </div>
+
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Twitter</h4>
+              <p class="text-gray-500 text-sm">Ads</p>
+            </div>
+          </div>
+          <p class="font-semibold">-29€</p>
+        </div>
+
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Microsoft</h4>
+              <p class="text-gray-500 text-sm">Office Suite</p>
+            </div>
+          </div>
+          <p class=" font-semibold">-149€</p>
+        </div>
+
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Dropbox</h4>
+              <p class="text-gray-500 text-sm">Cloud</p>
+            </div>
+          </div>
+          <p class=" font-semibold">-14€</p>
+        </div>
+
+        <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Paypal</h4>
+              <p class="text-gray-500 text-sm">Shopping</p>
+            </div>
+          </div>
+          <p class="font-semibold">-200€</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Saving Accounts -->
+  <section class="w-full py-20 bg-white">
+    <div class="container mx-auto px-8">
+      
+      <!-- Header -->
+      <div class="flex items-center justify-between mb-12 w-1/2 relative">
+        <div class="max-w-xl">
+          <p class="text-2xl font-semibold mb-2">Saving Accounts</p>
+          <h2 class="text-5xl  text-gray-900 leading-snug mb-4">
+            Organize your <br> money the right way
+          </h2>
+          <p class="text-3xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          
+        </div>
+        <div class="w-1/2 relative">
+        <a href="#" class="text-green-600 font-semibold hover:underline  abosulute left-[0]">
+          All Features →
+        </a>
+        </div>
+      </div>
+
+      <!-- Feature Cards -->
+  
+<!-- items section start  -->
+
+<section class="p-8">
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+   
+    
+    <!-- Item 1 -->
+    <div class="flex flex-col ">
+      <div class="bg-gray-100 rounded-2xl p-6 flex flex-col items-center justify-center w-[214px] h-[214px]">
+        <div class="w-16 h-16 flex items-center justify-center rounded-xl mb-4">
+          <img src="./Assets/laptop.png" alt="">
+        </div>
+      </div>
+      <h4 class="font-semibold text-1xl mt-2">New Laptop</h4>
+      <p class="text-gray-500 text-sm">400$</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="flex flex-col ">
+      <div class="bg-red-100 rounded-2xl p-6 flex flex-col items-center justify-center w-[214px] h-[214px]">
+        <div class="w-16 h-16 flex items-center justify-center rounded-xl mb-4">
+          <img src="./Assets/cycle.png" alt="">
+        </div>
+      </div>
+      <h4 class="font-semibold text-text-1xl mt-2">Dream bike</h4>
+      <p class="text-gray-500 text-sm">200$</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="flex flex-col ">
+      <div class="bg-blue-100 rounded-2xl p-6 flex flex-col items-center justify-center w-[214px] h-[214px]">
+        <div class="w-16 h-16 flex items-center justify-center rounded-xl mb-4">
+          <img src="./Assets/aeroplane.png" alt="">
+        </div>
+      </div>
+      <h4 class="font-semibold text-text-1xl mt-2">Holiday</h4>
+      <p class="text-gray-500 text-sm">1400$</p>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="flex flex-col ">
+      <div class="bg-yellow-100 rounded-2xl p-6 flex flex-col items-center justify-center w-[214px] h-[214px]">
+        <div class="w-16 h-16 flex items-center justify-center rounded-xl mb-4">
+          <img src="./Assets/camera.png" alt="">
+        </div>
+      </div>
+      <h4 class="font-semibold text-text-1xl mt-2">Camera</h4>
+      <p class="text-gray-500 text-sm">100$</p>
+    </div>
+
+    <!-- Item 5 -->
+    <div class="flex flex-col ">
+      <div class="bg-yellow-100 rounded-2xl p-6 flex items-center justify-center w-[214px] h-[214px]">
+        <div class="w-16 h-16 flex items-center justify-center rounded-xl mb-4">
+          <img src="./Assets/Frame 8.png" alt="">
+        </div>
+      </div>
+      <h4 class="font-semibold text-text-1xl mt-2">More</h4>
+      <p class="text-gray-500 text-sm">+ Add</p>
+    </div>
+
+  </div>
+</section>
+ <!-- items section start  -->
+
+</main>
+
+<!-- Send & Receive  -->
+ <section class="w-full  py-20 h-[615px] ">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between px-8 gap-12">
+      
+      <!-- Left Content -->
+      <div class="w-full lg:w-1/2">
+        <p class="text-2xl">Notifications</p>
+        <h2 class="text-5xl font-medium  leading-snug mb-6">
+          Stay Notified
+        </h2>
+        <p class="text-gray-600 mb-6 text-2xl ">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <ul class="space-y-3  text-lg">
+          <li class="flex items-center gap-2 ">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Malesuada Ipsum
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Vestibulum
+          </li>
+          <li class="flex items-center gap-2">
+            <span class="w-5 h-5 bg-[#5BB5A2]  rounded-full flex items-center justify-center"><img src="./Assets/tik.png" alt=""></span>
+            Parturient Lorem
+          </li>
+        </ul>
+ <p class="text-[#5BB5A2] text-2xl mt-5 flex items-center font-semibold">Compare Cards <span><img src="./Assets/ri_arrow-down-line.png" alt="" class=" w-[30px] ml-4"></span></p>
+      </div>
+
+      <!-- Right Transactions -->
+      <div class="w-full lg:w-4/12 flex flex-col gap-4 h-[578px]  ">
+        <div class="bg-[#F8F8F8] shadow-md p-4 rounded-xl flex items-center justify-between ">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-14 h-14 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/app-icon.png" alt="" class="w-8"></div>
+            <div>
+              <h4 class="font-semibold text-2xl">Banko</h4>
+              <p class="text-gray-500 text-2xl">You payment of 49€ has been processed!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F8F8] shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-14 h-14 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/app-icon.png" alt="" class="w-8"></div>
+            <div>
+              <h4 class="font-semibold text-2xl">Banko</h4>
+              <p class="text-gray-500 text-2xl">You got a new support message!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F8F8] shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-14 h-14 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/app-icon.png" alt="" class="w-8"></div>
+            <div>
+              <h4 class="font-semibold text-2xl">Banko</h4>
+              <p class="text-gray-500 text-2xl">You payment was declined!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F8F8] shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-14 h-14 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/app-icon.png" alt="" class="w-8"></div>
+            <div>
+              <h4 class="font-semibold text-2xl">Banko</h4>
+              <p class="text-gray-500 text-2xl">Please verify your payment of 99€!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#F8F8F8] shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-14 h-14 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/app-icon.png" alt="" class="w-8"></div>
+            <div>
+              <h4 class="font-semibold text-2xl">Banko</h4>
+              <p class="text-gray-500 text-2xl">New account statistics are available!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="bg-white shadow-md p-4 rounded-xl flex items-center justify-between">
+          <div class="flex items-center gap-3 h-[82px]">
+            <div class="w-12 h-12 bg-[#5BB5A2] flex items-center justify-center rounded-lg"><img src="./Assets/iphone.png" alt="" class="w-6"></div>
+            <div>
+              <h4 class="font-semibold">Paypal</h4>
+              <p class="text-gray-500 text-sm">Shopping</p>
+            </div>
+          </div>
+          <p class="font-semibold">-200€</p>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- Section end  -->
+
+
+
+  
 </body>
+
 </html>
