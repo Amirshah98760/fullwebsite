@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compare</title>
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <header class="w-full h-[100px] flex items-center justify-center">
+  <header class="w-full h-[100px] flex items-center justify-center fixed z-1 bg-[#FFFFFF]">
     <div class="flex items-center justify-between w-10/12 ">
       <div>
         <h1 class="text-[#5BB5A2] font-bold text-[32px] ">banquee</h1>
       </div>
       <div class="links">
-        <ul class="flex gap-[20px] ">
-          <li><a href="#" class="text-2xl">Features</a></li>
-          <li><a href="#" class="flex text-2xl"> Compare <img src="../Assets/drop-down-line (1).png"
+        <ul class="flex gap-[30px] ">
+          <li><a href="../index.html" class="text-2xl">Features</a></li>
+          <li><a href="./compare.html" class="flex text-2xl items-center"> Compare <img src="../Assets/drop-down-line (1).png"
                 class="w-[24px] h-[24px]" alt=""></a></li>
           <li><a href="#" class="text-2xl">Support</a> </li>
-          <li><a href="#" class="flex text-2xl">Blog <img src="../Assets/drop-down-line (1).png"
+          <li><a href="#" class="flex text-2xl items-center">Blog <img src="../Assets/drop-down-line (1).png"
                 class="w-[24px] h-[24px]" alt=""></a></li>
         </ul>
       </div>
@@ -33,31 +35,546 @@
 
 
 
-   
 
 
-<!-- hero start  -->
- <main class="w-full bg-[#E8F2EE]">
-  <div class="container mx-auto flex justify-between px-8 h-[472px]">
-    
-    <!-- Left Section -->
-    <div class="w-[600px] flex flex-col gap-4 justify-center">
-      <p class="text-2xl">Compare Cards</p>
-      <h1 class="text-6xl text-gray-800 mb-4 leading-[1.2]">
-        The ideal <br> card for you
-      </h1>
+
+  <!-- hero start  -->
+  <main class="w-full bg-[#E8F2EE]">
+    <div class="container mx-auto flex justify-between px-8 h-[472px]">
+
+      <!-- Left Section -->
+      <div class="w-[600px] flex flex-col gap-4 justify-center">
+        <p class="text-2xl">Compare Cards</p>
+        <h1 class="text-6xl text-gray-800 mb-4 leading-[1.2]">
+          The ideal <br> card for you
+        </h1>
+      </div>
+
+      <!-- Right Section -->
+      <div class="w-1/2 relative">
+        <img src="/Assets/cards (1).png" alt="cards" class="absolute bottom-0 right-0 max-w-full h-auto">
+      </div>
+
     </div>
-
-    <!-- Right Section -->
-    <div class="w-1/2 relative">
-      <img src="/Assets/cards (1).png" alt="cards" class="absolute bottom-0 right-0 max-w-full h-auto">
-    </div>
-
-  </div>
-</main>
+  </main>
 
 
   <!-- hero end  -->
 
+  <!-- choose card section start -->
+
+
+
+  <main>
+    <!-- First Section -->
+    <section>
+      <div class="w-full mt-3 flex items-end">
+        <!-- wrapper flex: fixed width 1000px, hugs height, aligned right with 20% margin -->
+        <div class="flex gap-20 ml-auto mr-[20%] mt-[96px] w-[1000px] h-auto">
+
+          <!-- Basic -->
+          <div class="w-[357px]">
+            <h1 class="text-center font-semibold text-3xl dm-sans">
+              Basic
+              <span class="text-2xl bg-[#E8F2EE] text-[#5BB5A2] p-2 rounded ml-1">Popular</span>
+            </h1>
+            <h2 class="text-center text-5xl dm-sans mt-5">Free</h2>
+            <p class="text-center text-gray-500 mt-5 text-2xl dm-sans">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores!
+            </p>
+            <img class="mt-3" src="/Assets/greenCard.png" alt="" />
+            <button class=" bg-[#5BB5A2] w-[350px] h-[60px] rounded-lg mt-5 text-white text-2xl cursor-pointer">
+              Get Started
+            </button>
+          </div>
+
+          <!-- Premium -->
+          <div class="cartoon w-[357px]">
+            <h1 class="text-center font-semibold text-3xl dm-sans">Premium</h1>
+            <h2 class="text-center text-5xl dm-sans mt-5">$5 per-month</h2>
+            <p class="text-center text-gray-500 mt-6 text-2xl dm-sans mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores!
+            </p>
+            <img src="/Assets/darkYellow.png" alt="" />
+            <button class="myname bg-[#5BB5A2] w-[350px] h-[60px] rounded-lg mt-5 text-white text-2xl cursor-pointer">
+              Get Started
+            </button>
+          </div>
+
+          <!-- Gold -->
+          <div class="cartoon w-[357px]">
+            <h1 class="text-center font-semibold text-3xl dm-sans">Gold</h1>
+            <h2 class="text-center text-5xl dm-sans mt-5 ">$10 per-month</h2>
+            <p class="text-center text-gray-500 mt-6 text-2xl dm-sans mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores!
+            </p>
+            <img src="/Assets/blackCard.png" alt="" />
+            <button class="myname bg-[#5BB5A2] w-[350px] h-[60px] rounded-lg mt-5 text-white text-2xl cursor-pointer">
+              Get Started
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section -->
+  <div class="w-full bg-white p-8">
+    
+  <div class="w-[1400px] mx-auto"><h2 class="text-xl font-semibold mb-6">Credit Card</h2></div>
+
+  <!-- Scrollable wrapper -->
+  <div class="overflow-x-auto ">
+    <table class="w-[1400px] table-fixed border-collapse text-left mx-auto">
+      <!-- <thead>
+        <tr class="border-b border-gray-200">
+          <th class="w-[40%] py-3 px-6 text-gray-600 font-medium text-left">Feature</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan A</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan B</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan C</th>
+        </tr>
+      </thead> -->
+
+      <tbody class="divide-y divide-gray-100">
+        <!-- Physical Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                <img src="../Assets/ri_bank-card-2-line@2x.png" alt="" class="w-7 h-7">
+               
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Physical Card</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">Optional</td>
+         <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+    <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+        </tr>
+
+        <!-- Virtual Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+               
+                <img src="../Assets/ri_refund-line.png" alt="" class="w-7 h-7">
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Virtual Card</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">-</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">Up to 2</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">Unlimited</td>
+        </tr>
+
+        <!-- Contactless Payments -->
+      <tr class="hover:bg-gray-50">
+  <!-- First column -->
+  <td class="py-5 px-6 align-top">
+    <div class="flex items-start space-x-4">
+      <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+       
+        <img src="../Assets/ri_wifi-line.png" alt="" class="w-7 h-7">
+      </div>
+      <div>
+        <p class="font-medium text-gray-800 leading-tight">Contactless Payments</p>
+        <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+      </div>
+    </div>
+  </td>
+
+  <!-- Plan A -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-7 h-7 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+
+  <!-- Plan B -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+
+  <!-- Plan C -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+</tr>
+
+
+        <!-- Mobile Payments -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                
+                <img src="../Assets/ri_money-euro-circle-line.png" alt="" class="w-7 h-7">
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Mobile Payments</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+      <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+         <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+    <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
+
+
+<!-- Bank account  -->
+
+<div class="w-full bg-white p-8">
+    
+  <div class="w-[1400px] mx-auto"><h2 class="text-xl font-semibold mb-6">Bank Account</h2></div>
+
+  <!-- Scrollable wrapper -->
+  <div class="overflow-x-auto ">
+    <table class="w-[1400px] table-fixed border-collapse text-left mx-auto">
+      <!-- <thead>
+        <tr class="border-b border-gray-200">
+          <th class="w-[40%] py-3 px-6 text-gray-600 font-medium text-left">Feature</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan A</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan B</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan C</th>
+        </tr>
+      </thead> -->
+
+      <tbody class="divide-y divide-gray-100">
+        <!-- Physical Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                <img src="../Assets/ri_bank-card-2-line@2x.png" alt="" class="w-7 h-7">
+               
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Physical Card</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">-</td>
+         <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+    <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+        </tr>
+
+        <!-- Virtual Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+               
+                <img src="../Assets/ri_refund-line.png" alt="" class="w-7 h-7">
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Virtual Card</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">2</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">5</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">10</td>
+        </tr>
+
+        <!-- Contactless Payments -->
+     
+
+
+        <!-- Mobile Payments -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                
+                <img src="../Assets/ri_smartphone-line.png" alt="" class="w-7 h-7">
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Mobile Payments</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+      <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+         <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+    <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
+
+<!-- Extra features  -->
+
+<div class="w-full bg-white p-8">
+    
+  <div class="w-[1400px] mx-auto"><h2 class="text-xl font-semibold mb-6">Extra Features</h2></div>
+
+  <!-- Scrollable wrapper -->
+  <div class="overflow-x-auto ">
+    <table class="w-[1400px] table-fixed border-collapse text-left mx-auto">
+      <!-- <thead>
+        <tr class="border-b border-gray-200">
+          <th class="w-[40%] py-3 px-6 text-gray-600 font-medium text-left">Feature</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan A</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan B</th>
+          <th class="w-[20%] py-3 px-6 text-gray-600 font-medium text-center">Plan C</th>
+        </tr>
+      </thead> -->
+
+      <tbody class="divide-y divide-gray-100">
+        <!-- Physical Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+                <img src="../Assets/ri_safe-2-fill.png" alt="" class="w-7 h-7">
+               
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Saving Account</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">2</td>
+         <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+    <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+        </tr>
+
+        <!-- Virtual Card -->
+        <tr class="hover:bg-gray-50">
+          <td class="py-5 px-6 align-top">
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+               
+                <img src="../Assets/ri_line-chart-line.png" alt="" class="w-7 h-7">
+              </div>
+              <div>
+                <p class="font-medium text-gray-800 leading-tight">Virtual Card</p>
+                <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+              </div>
+            </div>
+          </td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">-</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">Up to 2</td>
+          <td class="py-5 px-6 text-center text-gray-700 align-middle">Unlimited</td>
+        </tr>
+
+        <!-- Contactless Payments -->
+      <tr class="hover:bg-gray-50">
+  <!-- First column -->
+  <td class="py-5 px-6 align-top">
+    <div class="flex items-start space-x-4">
+      <div class="bg-green-100 p-2 rounded-lg flex-shrink-0">
+       
+        <img src="../Assets/ri_money-euro-circle-line.png" alt="" class="w-7 h-7">
+      </div>
+      <div>
+        <p class="font-medium text-gray-800 leading-tight">Contactless Payments</p>
+        <p class="text-sm text-gray-500 mt-1">Diam in arcu cursus euismod</p>
+      </div>
+    </div>
+  </td>
+
+  <!-- Plan A -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+
+  <!-- Plan B -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+
+  <!-- Plan C -->
+  <td class="py-5 px-6 text-center align-middle">
+    <div class="flex justify-center items-center">
+      <img src="../Assets/ri_check-fill.png" alt="check" class="w-5 h-5 bg-[#E8F2EE] rounded-full p-1" />
+    </div>
+  </td>
+</tr>
+
+       
+      </tbody>
+    </table>
+  </div>
+  </div>
+</div>
+
+
+    </section>
+
+  <!-- Full-width green section -->
+<section class="w-full  py-10 flex justify-center">
+  <!-- Inner content container (80% width, centered) -->
+  <div class="w-[70%] flex flex-wrap items-center justify-between gap-8 bg-[#5EB5A6] text-white py-10 rounded-lg px-10">
+
+    <!-- Left Text Section -->
+    <div class="flex flex-col">
+      <h2 class="text-2xl font-semibold">Still have questions?</h2>
+      <p class="text-lg text-white/80 mt-1">We are here to help.</p>
+    </div>
+
+    <!-- Contact Info Section -->
+    <div class="flex flex-wrap items-center justify-center gap-10">
+      <!-- Phone -->
+      <div class="flex items-center space-x-4">
+        <div class="bg-white/20 p-3 rounded-full flex justify-center items-center">
+       
+          <img src="../Assets/phonebadge.png" alt="">
+        </div>
+        <div>
+          <p class="text-base font-medium">+49 176 123 456</p>
+          <p class="text-sm text-white/80">Support Hotline</p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="flex items-center space-x-4">
+        <div class="bg-white/20 p-3 rounded-full flex justify-center items-center">
+         
+          <img src="../Assets/badge.png" alt="">
+        </div>
+        <div>
+          <p class="text-base font-medium">help@bank.com</p>
+          <p class="text-sm text-white/80">Support Email</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Button -->
+    <div>
+      <button class="bg-[#1E1E1E] hover:bg-[#2B2B2B] text-white text-base font-medium py-3 px-6 rounded-md transition">
+        Chat with us
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- footer start  -->
+  <footer class="bg-white border-t py-20 border-gray-300">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-5 gap-8">
+    
+    <!-- Logo -->
+    <div class="col-span-2 md:col-span-1">
+      <h1 class="text-2xl font-bold text-teal-600">banquee.</h1>
+      
+    </div>
+
+    <!-- About -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">About</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Features</a></li>
+        <li><a href="#" class="hover:text-teal-600">Pricing</a></li>
+        <li><a href="#" class="hover:text-teal-600">Support</a></li>
+      </ul>
+    </div>
+
+    <!-- Blog -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Blog</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Products</a></li>
+        <li><a href="#" class="hover:text-teal-600">Technology</a></li>
+        <li><a href="#" class="hover:text-teal-600">Crypto</a></li>
+      </ul>
+    </div>
+
+    <!-- Webflow -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Webflow</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Styleguide</a></li>
+        <li><a href="#" class="hover:text-teal-600">Licensing</a></li>
+        <li><a href="#" class="hover:text-teal-600">Changelog</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Social Media</h2>
+      <ul class="space-y-2 text-gray-500 text-bold">
+        <li><a href="#" class="hover:text-teal-600">Twitter</a></li>
+        <li><a href="#" class="hover:text-teal-600">Facebook</a></li>
+        <li><a href="#" class="hover:text-teal-600">Instagram</a></li>
+      </ul>
+    </div>
+
+  </div>
+  
+    <div class="flex justify-between items-center max-w-7xl mx-auto px-6 mt-20 border-t border-gray-300">
+  <div class="mt-5"><p class="text-1xl text-gray-500 text-bold">©  Made by <span class="text-[#5BB5A2]">Pawel Gola </span>- Powered by <span class="text-[#5BB5A2]">Webflow</span></p></div>
+  <div class="mt-5"><p class="text-1xl text-gray-500 text-bold flex gap-3"><span>Impressum</span>  <span>Datenschutz</span></p></div>
+</div>
+  
+</footer>
+<!-- footer end  -->
+
+  </main>
+
 </body>
+
 </html>
