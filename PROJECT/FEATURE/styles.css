@@ -1,0 +1,122 @@
+*{
+    
+    
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.btn{
+    background-color: #5BB5A2;
+    border: 2px solid #5BB5A2 ;
+    width: 250px;
+    height: 50;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: 2sec;
+    cursor: pointer;
+    
+}
+
+.arrow{
+    color:#5BB5A2 ;
+    
+}
+
+.first{
+    /* border: 2px solid black; */
+}
+
+
+.firstchild{
+    /* border: 2px solid red; */
+    margin: 100px;
+    height: 800px;
+    width: 1200px;
+    margin-left: 350px;
+}
+
+.left{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 284px;
+    /* margin-top: 20%; */
+
+}
+
+.first-1{
+    /* border: 2px solid blue; */
+    margin-top: 30px;
+}
+
+.secondparent{
+    /* border: 2px solid black; */
+    
+}
+
+.upperleft{
+    /* border: 2px solid black; */
+    width: 584px;
+    height: 600px;
+    margin-left: 18%;
+    background-color:#F8F8F8;
+    border-radius: 10px;
+}
+
+.upperright{
+    /* border: 2px solid black; */
+    width: 584px;
+    height: 600px;
+    
+    background-color:#F8F8F8;
+        border-radius: 10px;
+}
+.lower-1{
+    /* border: 2px solid black; */
+    width: 378px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+
+}
+.lower-2{
+    /* border: 2px solid black; */
+    width: 378px;
+    height: 550px;
+    border-radius: 20px;
+     background-color: #F8F8F8;
+
+}
+.lower-3{
+    /* border: 2px solid black; */
+    width: 378px;
+    height: 550px;
+    border-radius: 20px;
+     background-color: #F8F8F8;
+
+}
+
+.myname:hover{
+    transform: scale(1.02);
+    transition: 4sec;
+    background-color:;
+    
+}
+
+
