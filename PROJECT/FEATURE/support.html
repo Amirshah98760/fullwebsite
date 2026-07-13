@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="support.css" />
+    
+  </head>
+  <body>
+     <!-- navbar -->
+    <header class="w-full h-[100px] flex items-center justify-center">
+      <div class="flex items-center justify-between w-10/12">
+        <div>
+          <h1 class="text-[#5BB5A2] font-bold text-[32px]">banquee</h1>
+        </div>
+        <div class="links">
+          <ul class="flex gap-[20px]">
+            <li><a href="#" class="text-2xl">Features</a></li>
+            <li>
+              <a href="#" class="flex text-2xl items-center">
+                Compare
+                <img
+                  src="../FEATURE/imagies/ri_arrow-drop-down-line.png"
+                  class="w-[24px] h-[24px]"
+                  alt=""
+              /></a>
+            </li>
+            <li><a href="#" class="text-2xl">Support</a></li>
+            <li>
+              <a href="#" class="flex text-2xl items-center"
+                >Blog
+                <img
+                  src="../FEATURE/imagies/ri_arrow-drop-down-line.png"
+                  class="w-[24px] h-[24px]"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex gap-5">
+          <button class="text-[#5BB5A2] text-2xl font-bold">Login</button>
+          <button
+            class="text-2xl text-[#FFFFFF] bg-[#5BB5A2] rounded-[5px] p-2 cursor-pointer ml-1"
+          >
+            Open Account
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- navbar end -->
+    
+   
+    
+    <!-- first section start -->
+    <div class=" w-[100%] h-[472px] flex bg-[#E8F2EE]">
+      <div class="left h-[216px] w-[1400px] ml-40 mt-20">
+        <h1 class="dm-sans text-2xl">Support</h1>
+        <div class=" w-[600px] h-[180px] text-[90px]  dm-sans font-[500] ">
+
+          <h1 class="leading-20">
+            How can <br />
+            we help you?
+          </h1>
+        </div>
+      </div>
+      <div class="right w-[510px] h-[900px] mr-60 mt-16 "><img src="/FEATURE/imagies/border.png" alt=""></div>
+    </div> 
+    <!-- first section End -->
+
+    <!-- lower nav start -->
+     <div class=" w-[1200px] h-[322px] m-auto">
+      <div class="pt-[96px]"><img src="/FEATURE/imagies/bar.png" alt=""></div>
+     </div>
+    <!-- lower nav End -->
+
+    <!-- accordian start -->
+  
+    <div class=" flex flex-col md:flex-row ml-[300px]">
+      <!-- Sidebar -->
+     
+      <div class="  bg-gray-50 p-6 border-rounded border-gray-200">
+        <h2 class="text-gray-700 text-lg font-semibold mb-4">Categories</h2>
+        <ul class="space-y-3 text-gray-600">
+          <li><a href="#" class="hover:text-black font-medium">Cards</a></li>
+          <li><a href="#" class="hover:text-black">Account</a></li>
+          <li><a href="#" class="hover:text-black">Personal Details</a></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="flex-1 p-8">
+        <div class="max-w-2xl mx-auto">
+          <!-- Header -->
+          <div class="flex items-center gap-3 mb-8">
+            <div class="bg-green-100 p-3 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657 1.343-3 3-3h3v8h-3a3 3 0 01-3-3v-2z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17H6a3 3 0 01-3-3V9a3 3 0 013-3h3v11z" />
+              </svg>
+            </div>
+            <h1 class="text-2xl font-semibold text-gray-800">Cards</h1>
+          </div>
+
+          <!-- Accordion -->
+          <div class="space-y-4">
+            <!-- Item 1 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to setup my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I create a virtual card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to order an extra card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 4 (Open by default) -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>My card will expire soon. What to do?</span>
+                <span class="text-xl text-gray-500">×</span>
+              </button>
+              <p class="mt-3 text-gray-500 text-sm leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Duis accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+              </p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I freeze my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+<!-- second start -->
+
+
+      <!-- Main Content -->
+      <div class="flex-1 p-8 ml-[420px] mt-[30px]">
+        <div class="max-w-2xl mx-auto">
+          <!-- Header -->
+          <div class="flex items-center gap-3 mb-8 ">
+            <div class="bg-green-100 p-3 rounded-full ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657 1.343-3 3-3h3v8h-3a3 3 0 01-3-3v-2z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17H6a3 3 0 01-3-3V9a3 3 0 013-3h3v11z" />
+              </svg>
+            </div>
+            <h1 class="text-2xl font-semibold text-gray-800 ">Account</h1>
+          </div>
+
+          <!-- Accordion -->
+          <div class="space-y-4">
+            <!-- Item 1 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to setup my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I create a virtual card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to order an extra card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 4 (Open by default) -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>My card will expire soon. What to do?</span>
+                <span class="text-xl text-gray-500">×</span>
+              </button>
+              <p class="mt-3 text-gray-500 text-sm leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Duis accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+              </p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I freeze my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- accordian End -->
+     
+<!-- second End -->
+
+<!-- third start -->
+
+      <!-- Main Content -->
+      <div class="flex-1 p-8 ml-[420px] mt-[30px]">
+        <div class="max-w-2xl mx-auto">
+          <!-- Header -->
+          <div class="flex items-center gap-3 mb-8">
+            <div class="bg-green-100 p-3 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657 1.343-3 3-3h3v8h-3a3 3 0 01-3-3v-2z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17H6a3 3 0 01-3-3V9a3 3 0 013-3h3v11z" />
+              </svg>
+            </div>
+            <h1 class="text-2xl font-semibold text-gray-800">Personal Details</h1>
+          </div>
+
+          <!-- Accordion -->
+          <div class="space-y-4">
+            <!-- Item 1 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to setup my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I create a virtual card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How to order an extra card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+
+            <!-- Item 4 (Open by default) -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>My card will expire soon. What to do?</span>
+                <span class="text-xl text-gray-500">×</span>
+              </button>
+              <p class="mt-3 text-gray-500 text-sm leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Duis accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis natoque penatibus et magnis dis parturient.
+              </p>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="border-b border-gray-200 pb-4">
+              <button class="w-full flex justify-between items-center text-gray-800 font-medium focus:outline-none">
+                <span>How do I freeze my card?</span>
+                <span class="text-xl text-gray-500">+</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- third End -->
+
+    <!-- accordian End -->
+     <!-- footer start -->
+        <footer class="bg-white border-t py-10">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-5 gap-8">
+    
+    <!-- Logo -->
+    <div class="col-span-2 md:col-span-1">
+      <h1 class="text-2xl font-bold text-teal-600">banquee.</h1>
+      
+    </div>
+
+    <!-- About -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">About</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Features</a></li>
+        <li><a href="#" class="hover:text-teal-600">Pricing</a></li>
+        <li><a href="#" class="hover:text-teal-600">Support</a></li>
+      </ul>
+    </div>
+
+    <!-- Blog -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Blog</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Products</a></li>
+        <li><a href="#" class="hover:text-teal-600">Technology</a></li>
+        <li><a href="#" class="hover:text-teal-600">Crypto</a></li>
+      </ul>
+    </div>
+
+    <!-- Webflow -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Webflow</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Styleguide</a></li>
+        <li><a href="#" class="hover:text-teal-600">Licensing</a></li>
+        <li><a href="#" class="hover:text-teal-600">Changelog</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h2 class="font-bold text-gray-700 mb-3">Social Media</h2>
+      <ul class="space-y-2 text-gray-500">
+        <li><a href="#" class="hover:text-teal-600">Twitter</a></li>
+        <li><a href="#" class="hover:text-teal-600">Facebook</a></li>
+        <li><a href="#" class="hover:text-teal-600">Instagram</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+       <!-- footer End -->
+
+  
+
+    
+
+
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
